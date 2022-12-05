@@ -1,0 +1,46 @@
+{
+  "kitchen" : {
+    "knife_rack":{
+      "long_knife":[1,0,"","I shouldnt mess with this.","That knife looks sharp.",""]
+      ,"mid_knife":[0,0,"It is empty!","","Looks like someone was in a rush to cut something...",""]
+      ,"short_knife":[1,0,"","I shouldnt mess with this.","That knife looks sharp.",""]
+    }
+    ,"fridge":{
+      "top_shelf":{
+        "apple":[1,0,"","I don't really like apples...","Something does not smell good.",""]
+        ,"sandwich":[1,0,"","I'm not hungry right now...","Something does not smell good.",""]
+      }
+      ,"bottom_shelf":{
+        "corn":[1,0,"","Uncooked corn, Ill pass...","Something does not smell good.",""]
+      }
+    }
+    ,"table":{
+      "note":[1,1,"This is where I found that note.", "This note looks important.", "Note: Do not forget to turn off the lights.","note"]
+    }
+  }
+  
+  ,"bathroom" : {
+    "sink":{
+      "mirror":[1,0,"","I look tired.","This mirror is pretty old and rusty.",""]
+      ,"tooth_brush":[1,0,"","I should probably get my own...","Just and old tooth brush.",""]
+    }
+    ,"shower":{
+      "shower_rack":[0,0,"Its missing...","","Looks like someone broke it.",""]
+      ,"shower_floor":{
+        "knife":[1,1,"What was that knife doing here?","I should grab this before anyone gets hurt.","This knife has... blood? on it.","knife"]
+      }
+    }
+    ,"bathroom_floor":{
+      "water":[1,0,"All clean now.","I can't clean this up without a mop.","This water has red tint on it...",""]
+    }
+  }
+  
+  ,"living_room" : {
+    "tv":{
+      "screen":[0,0,"The TV is turned off, where is the remote?","Hey! The TV turned on but I dont like this show...","It's only accumulating dust.","remotex"]
+    }
+    ,"couch":{
+      "remote":[1,1,"This is where I found the remote.","Hey! Now I can turn on the TV.","I wonder if it has batteries.","remote"]
+    }
+  }
+}
